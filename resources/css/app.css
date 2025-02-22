@@ -1,0 +1,12 @@
+.watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2; /* Adjust the opacity as needed */
+    pointer-events: none; /* Prevent the watermark from interfering with user interactions */
+}
+
+.watermark img {
+    width: 150px; /* Adjust size */
+}
